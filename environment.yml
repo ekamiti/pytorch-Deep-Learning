@@ -5,12 +5,14 @@ channels:
   - dglteam
 dependencies:
   - python=3.9
+  - cudatoolkit=11.6
   - pip
   - matplotlib
   - jupyter
   - jupyterlab
-  - pytorch
-  - torchvision
+  - pytorch=1.12.1=py3.9_cuda11.6_cudnn8.3.2_0
+  - torchaudio=0.12.1=py39_cu116
+  - torchvision=0.13.1=py39_cu116
   - torchtext
   - opencv
   - librosa
